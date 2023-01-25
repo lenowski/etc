@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "band-name-generator"
+version = "0.1.0"
+description = "Generates a band name based on the city you grew up in and your pet's name."
+authors = ["LEN"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+band-name-generator = "src.band_name_generator:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
