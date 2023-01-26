@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tip-calculator"
+version = "0.1.0"
+description = "Considers the cost of the service, number of people, and chosen tip percentage to calculate the total cost per person."
+authors = ["LEN"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.scripts]
+tip-calculator = "src.tip_calculator:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
