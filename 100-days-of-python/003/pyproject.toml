@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "treasure-island"
+version = "0.1.0"
+description = '"Choose Your Own Adventure" game.'
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "treasure_island.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.scripts]
+treasure-island = "treasure_island:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
