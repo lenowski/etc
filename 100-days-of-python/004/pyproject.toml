@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rock-paper-scissors"
+version = "0.1.0"
+description = '"Rock Paper Scissors" game.'
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "rock_paper_scissors.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+rock-paper-scissors = "rock_paper_scissors:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
