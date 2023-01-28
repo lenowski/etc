@@ -1,6 +1,6 @@
 ## Day 2
 
-`Scripting` `CLI` 
+`Script` `CLI` 
 
 
 ### Tip Calculator [^solution]

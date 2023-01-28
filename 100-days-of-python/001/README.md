@@ -1,6 +1,6 @@
 ## Day 1
 
-`Scripting` `CLI` 
+`Script` `CLI` 
 
 
 ### Band Name Generator [^solution]

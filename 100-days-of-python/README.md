@@ -4,8 +4,8 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 
 | Day | Project                                                          | Tags              | Level         | Status |
 |:---:|:-----------------------------------------------------------------|:-----------------:|:--------------|:------:|
-| 001 | [Band Name Generator](001)                                       | `Scripting` `CLI` | Beginner      |   ☒    |
-| 002 | [Tip Calculator](002)                                            | `Scripting` `CLI` | Beginner      |   ☒    |
+| 001 | [Band Name Generator](001)                                       | `Script` `CLI`    | Beginner      |   ☒    |
+| 002 | [Tip Calculator](002)                                            | `Script` `CLI`    | Beginner      |   ☒    |
 | 003 | [Treasure Island](003)                                           | `Game` `CLI`      | Beginner      |   ☒    |
 | 004 | [Rock Paper Scissors](004)                                       | `Game` `CLI`      | Beginner      |   ☒    |
 | 005 | [Password Generator](005)                                        |                   | Beginner      |   ☐    |
