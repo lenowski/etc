@@ -8,4 +8,4 @@
 "Rock Paper Scissors" game.
 
 
-[^solution]: [Solution given in the course.](https://replit.com/@appbrewery/treasure-island-end)
+[^solution]: [Solution given in the course.](https://replit.com/@appbrewery/rock-paper-scissors-end)
