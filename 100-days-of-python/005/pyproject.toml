@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "password-generator"
+version = "0.1.0"
+description = "Generates random, secure passwords from a combination of letters, numbers and symbols."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "password_generator.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+password-generator = "password_generator:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
