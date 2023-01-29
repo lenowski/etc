@@ -8,7 +8,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 002 | [Tip Calculator](002)                                            | `Script` `CLI`    | Beginner      |   ☒    |
 | 003 | [Treasure Island](003)                                           | `Game` `CLI`      | Beginner      |   ☒    |
 | 004 | [Rock Paper Scissors](004)                                       | `Game` `CLI`      | Beginner      |   ☒    |
-| 005 | [Password Generator](005)                                        |                   | Beginner      |   ☐    |
+| 005 | [Password Generator](005)                                        | `Script` `CLI`    | Beginner      |   ☒    |
 | 006 | [Escaping the Maze Exercise](006)                                |                   | Beginner      |   ☐    |
 | 007 | [Hangman](007)                                                   |                   | Beginner      |   ☐    |
 | 008 | [Caesar Cipher](008)                                             |                   | Beginner      |   ☐    |
