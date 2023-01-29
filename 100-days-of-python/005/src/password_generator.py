@@ -17,7 +17,7 @@ def main():
     password_list += [choice(SYMBOLS) for _ in range(0, nr_symbols)]
     shuffle(password_list)
 
-    password = "".join(char for char in password_list)
+    password = "".join(password_list)
 
     print(f"Your password is: {password}")
 
