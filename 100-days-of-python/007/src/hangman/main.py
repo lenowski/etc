@@ -9,9 +9,6 @@ def main():
 
     chosen_word = choice(WORD_LIST)
 
-    # Testing code
-    print(f"Pssst, the solution is {chosen_word}.")
-
     display = ["_" for _ in chosen_word]
 
     lives = 6
