@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hangman"
+version = "0.1.0"
+description = "A classic word-guessing game where the player tries to guess the hidden word."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "hangman", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+hangman = "hangman.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
