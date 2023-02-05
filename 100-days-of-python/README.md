@@ -11,7 +11,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 005 | [Password Generator](005)                                        | `Script` `CLI`    | Beginner      |   ☒    |
 | 006 | [Escaping the Maze](006)                                         | `Exercise`        | Beginner      |   ☒    |
 | 007 | [Hangman](007)                                                   | `Game` `CLI`      | Beginner      |   ☒    |
-| 008 | [Caesar Cipher](008)                                             |                   | Beginner      |   ☐    |
+| 008 | [Caesar Cipher](008)                                             | `Tool` `CLI`      | Beginner      |   ☒    |
 | 009 | [Secret Auction](009)                                            |                   | Beginner      |   ☐    |
 | 010 | [Calculator](010)                                                |                   | Beginner      |   ☐    |
 | 011 | [Blackjack](011)                                                 |                   | Beginner      |   ☐    |
