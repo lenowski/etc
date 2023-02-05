@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blind-auction"
+version = "0.1.0"
+description = "Allows users to participate in a blind auction in which bid amounts are confidential."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "blind_auction", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+blind-auction = "blind_auction.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
