@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "calculator"
+version = "0.1.0"
+description = "A command line calculator that performs basic arithmetic on two numbers."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "calculator", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+calculator = "calculator.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
