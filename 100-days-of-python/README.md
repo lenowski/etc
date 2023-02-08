@@ -14,7 +14,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 008 | [Caesar Cipher](008)                                             | `Tool` `CLI`      | Beginner      |   ☒    |
 | 009 | [Blind Auction](009)                                             | `Tool` `CLI`      | Beginner      |   ☒    |
 | 010 | [Calculator](010)                                                | `Tool` `CLI`      | Beginner      |   ☒    |
-| 011 | [Blackjack](011)                                                 |                   | Beginner      |   ☐    |
+| 011 | [Blackjack](011)                                                 | `Game` `CLI`      | Beginner      |   ☒    |
 | 012 | [Number Guessing Game](012)                                      |                   | Beginner      |   ☐    |
 | 013 | [Debugging Exercises](013)                                       |                   | Beginner      |   ☐    |
 | 014 | [Higher Lower Game](014)                                         |                   | Beginner      |   ☐    |

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blackjack"
+version = "0.1.0"
+description = "A command-line Blackjack game to play against the computer dealer."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "blackjack", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+blackjack = "blackjack.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
