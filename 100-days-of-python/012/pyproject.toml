@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "guess-number"
+version = "0.1.0"
+description = "A simple game where the player tries to guess a randomly generated number."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "guess_number", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+guess-number = "guess_number.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
