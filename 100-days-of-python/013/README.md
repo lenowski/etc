@@ -3,7 +3,7 @@
 `Exercise`
 
 
-### Debbuging 
+### Debugging 
 
 Identify and fix errors or bugs in the following exercises.
 
