@@ -16,7 +16,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 010 | [Calculator](010)                                                | `Tool` `CLI`      | Beginner      |   ☒    |
 | 011 | [Blackjack](011)                                                 | `Game` `CLI`      | Beginner      |   ☒    |
 | 012 | [Guess the Number](012)                                          | `Game` `CLI`      | Beginner      |   ☒    |
-| 013 | [Debugging Exercises](013)                                       |                   | Beginner      |   ☐    |
+| 013 | [Debugging](013)                                                 | `Exercise`        | Beginner      |   ☒    |
 | 014 | [Higher Lower Game](014)                                         |                   | Beginner      |   ☐    |
 | 015 | [Coffee Machine (Part 1)](015)                                   |                   | Intermediate  |   ☐    |
 | 016 | [Coffee Machine (Part 2)](016)                                   |                   | Intermediate  |   ☐    |
