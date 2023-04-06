@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coffee-machine"
+version = "0.1.0"
+description = "Simulates a coffee machine that makes espresso, latte, and cappuccino."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "coffee_machine", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+coffee-machine = "coffee_machine.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
