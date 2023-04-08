@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quiz"
+version = "0.1.0"
+description = "A true/false quiz game that allows players to answer questions and keep track of their scores."
+
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "quiz", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+quiz = "quiz.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
