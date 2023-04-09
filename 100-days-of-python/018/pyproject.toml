@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hirst-painting"
+version = "0.1.0"
+description = "Generates a grid of dots in the style of Damien Hirst's 'Spot Paintings'"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "hirst_painting", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+hirst-painting = "hirst_painting.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

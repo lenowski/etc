@@ -21,7 +21,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 015 | [Coffee Machine (Part 1)](015)                                   | `Simulator` `PP` `CLI`  | Intermediate  |   ☒    |
 | 016 | [Coffee Machine (Part 2)](016)                                   | `Simulator` `OOP` `CLI` | Intermediate  |   ☒    |
 | 017 | [Quiz](017)                                                      | `Game` `OOP` `CLI`      | Intermediate  |   ☒    |
-| 018 | [Hirst Painting](018)                                            |                         | Intermediate  |   ☐    |
+| 018 | [Hirst Painting](018)                                            | `Tool` `PP` `CLI`       | Intermediate  |   ☒    |
 | 019 | [Turtle Race](019)                                               |                         | Intermediate  |   ☐    |
 | 020 | [Snake (Part 1)](020)                                            |                         | Intermediate  |   ☐    |
 | 021 | [Snake (Part 2)](021)                                            |                         | Intermediate  |   ☐    |
