@@ -22,7 +22,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 016 | [Coffee Machine (Part 2)](016)                                   | `Simulator` `OOP` `CLI` | Intermediate  |   ☒    |
 | 017 | [Quiz](017)                                                      | `Game` `OOP` `CLI`      | Intermediate  |   ☒    |
 | 018 | [Hirst Painting](018)                                            | `Tool` `PP` `CLI`       | Intermediate  |   ☒    |
-| 019 | [Turtle Race](019)                                               |                         | Intermediate  |   ☐    |
+| 019 | [Turtle Race](019)                                               | `Game` `PP` `GUI`       | Intermediate  |   ☒    |
 | 020 | [Snake (Part 1)](020)                                            |                         | Intermediate  |   ☐    |
 | 021 | [Snake (Part 2)](021)                                            |                         | Intermediate  |   ☐    |
 | 022 | [Pong](022)                                                      |                         | Intermediate  |   ☐    |

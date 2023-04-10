@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "turtle-race"
+version = "0.1.0"
+description = "A game where you can bet on which turtle will win a race."
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "turtle_race", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+turtle-race = "turtle_race.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
