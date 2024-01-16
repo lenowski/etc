@@ -3,8 +3,6 @@
 `Script` `CLI` 
 
 
-### Password Generator [^solution]
+### Password Generator
 
 Generates random, secure passwords from a combination of letters, numbers and symbols.
-
-[^solution]: [Solution given in the course.](https://replit.com/@appbrewery/password-generator-end)

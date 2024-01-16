@@ -3,9 +3,6 @@
 `Game` `CLI` 
 
 
-### Rock Paper Scissors [^solution]
+### Rock Paper Scissors
 
 "Rock Paper Scissors" game.
-
-
-[^solution]: [Solution given in the course.](https://replit.com/@appbrewery/rock-paper-scissors-end)
