@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "snake"
+version = "0.2.0"
+description = "The legendary snake game"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{ include = "snake", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+snake = "snake.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
