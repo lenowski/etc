@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pong"
+version = "0.1.0"
+description = "A classic arcade table tennis game that never gets old"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "pong", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+pong = "pong.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
