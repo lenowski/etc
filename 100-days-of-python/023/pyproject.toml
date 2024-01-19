@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "turtle-crossing"
+version = "0.1.0"
+description = "A classic arcade game in which players guide a pixelated turtle through the traffic"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "turtle_crossing", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+turtle-crossing = "turtle_crossing.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
