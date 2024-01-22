@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mail-merge"
+version = "0.1.0"
+description = "Generates personalized invitations based on a template and a list of names"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "mail_merge.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+mail-merge = "mail_merge:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
