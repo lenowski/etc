@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "us-states-game"
+version = "0.1.0"
+description = "Test your knowledge of US geography by guessing the names of each state on a map"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "us_states_game", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+
+[tool.poetry.scripts]
+us-states-game = "src.us_states_game.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
