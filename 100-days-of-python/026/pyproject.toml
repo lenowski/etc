@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nato-alphabet"
+version = "0.1.0"
+description = "Translates words into the NATO phonetic alphabet"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "nato_alphabet.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2"
+
+[tool.poetry.scripts]
+nato-alphabet = "src.nato_alphabet:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

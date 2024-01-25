@@ -29,7 +29,7 @@ Projects from the Udemy course: [100 Days of Code: The Complete Python Pro Bootc
 | 023 | [Turtle Crossing](023)                                           | `Game` `OOP` `GUI`      | Intermediate  |   ☒    |
 | 024 | [Mail Merge](024)                                                | `Script` `CLI`          | Intermediate  |   ☒    |
 | 025 | [U.S. States Game](025)                                          | `Game` `GUI`            | Intermediate  |   ☒    |
-| 026 | [NATO Alphabet](026)                                             |                         | Intermediate  |   ☐    |
+| 026 | [NATO Alphabet](026)                                             | `Script` `CLI`          | Intermediate  |   ☒    |
 | 027 | [Miles to Kilometers Converter](027)                             |                         | Intermediate  |   ☐    |
 | 028 | [Pomodoro App](028)                                              |                         | Intermediate  |   ☐    |
 | 029 | [Password Manager App (Part 1)](029)                             |                         | Intermediate  |   ☐    |
