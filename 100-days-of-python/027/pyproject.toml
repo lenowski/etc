@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mi-to-km"
+version = "0.1.0"
+description = "Converts miles to kilometres"
+authors = ["LEN"]
+readme = "README.md"
+packages = [{include = "mi_to_km.py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.scripts]
+mi-to-km = "src.mi_to_km:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
